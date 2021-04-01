@@ -1,0 +1,180 @@
+$black: rgba(0, 0, 0, 1);
+$brown: rgba(148, 32, 60, 1);
+$midnight-blue: rgba(3, 62, 100, 1);
+$transparent-white: rgba(255, 255, 255, 0);
+$white: rgba(255, 255, 255, 1);
+
+
+
+
+// Typographies
+@mixin open-sans-11-regular {
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  @mixin open-sans-12-bold {
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  @mixin open-sans-13-bold {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  @mixin open-sans-13-regular {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  @mixin open-sans-13-semi-bold {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: normal;
+  }
+  @mixin open-sans-14-bold {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  @mixin open-sans-14-regular {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  @mixin open-sans-15-bold {
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  @mixin open-sans-16-bold {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  @mixin open-sans-16-extra-bold {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 800;
+    line-height: normal;
+  }
+  @mixin open-sans-16-regular {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  @mixin open-sans-16-semi-bold {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.postich {
+    background-color: $transparent-white;
+    padding: 5px 0 4px;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    border-left: 3px solid $brown;
+    margin-top: 10%;
+  }
+  .postelement {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toppost {
+    background-color: $transparent-white;
+    margin-bottom: 5px;
+    padding: 7px 310px 8px 6px;
+    display: flex;
+    align-items: center;
+  }
+  .cdn {
+    margin-right: 12.07px;
+    border-radius: 5px;
+  }
+  .share {
+    color: $black;
+    @include open-sans-16-regular;
+  }
+  .infopost {
+    margin-bottom: 11px;
+    margin-left: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .user {
+    margin-bottom: 11px;
+    display: flex;
+    align-items: center;
+  }
+  .marci {
+    margin-right: 3px;
+    border-radius: 27px;
+  }
+  .name {
+    color: $black;
+    margin-left: 3px;
+    margin: none;
+  }
+  .date {
+    color: $black;
+    margin-left: 3px;
+    margin: none;
+  }
+  .from {
+    color: $black;
+    margin-left: 3px;
+    margin: none;
+    
+    
+  }
+
+  .fondation {
+    margin-bottom: 2px;
+    color: $black;
+
+  }
+  .fondationEmphasis0 {
+    color: $black;
+
+  }
+  
+  .textpost {
+    width: 561px;
+    text-align: justify;
+    margin-bottom: 8px;
+    margin-left: 21px;
+    color: $black;
+
+  }
+  .textpostEmphasis1 {
+    color: $brown;
+
+  }
+  .buttonmore {
+    background-color: $midnight-blue;
+    margin-left: 21px;
+    border-radius: 10px;
+    padding: 1px 30px 3px 31px;
+    display: flex;
+    align-items: center;
+  }
+  .more {
+    color: $white;
+
+  }

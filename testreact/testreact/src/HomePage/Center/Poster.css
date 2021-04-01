@@ -1,0 +1,37 @@
+.marcou{
+}
+.posterk{
+    width: 100%;
+    margin-top: 1%;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 15%;
+}
+.post__top{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 3%;
+}
+.post__topInfo > h3 {
+    font-size: small;
+    color: gray;
+}
+.post__bottom{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0%;
+}
+.pistache{
+    margin-left: 20%;
+}
+
+.kekra{
+    display: flex;
+    top: 10%;
+    padding: 1%;
+}
+.touxte{
+    display: flex;
+    flex-direction: column;
+}

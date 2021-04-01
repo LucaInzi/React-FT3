@@ -1,0 +1,122 @@
+$black: rgba(0, 0, 0, 1);
+$brown: rgba(148, 32, 60, 1);
+$midnight-blue: rgba(3, 62, 100, 1);
+$transparent-black: rgba(0, 0, 0, 0.75);
+$transparent-midnight-blue: rgba(3, 62, 100, 0.42);
+$transparent-silver: rgba(196, 196, 196, 0.26);
+$white: rgba(255, 255, 255, 1);
+$white-smoke: rgba(243, 242, 239, 1);
+$white-smoke-2: rgba(248, 248, 248, 1);
+
+.rUbar {
+  background-color: $white-smoke-2;
+  border-radius: 9px;
+  padding: 10px 10px 10px 10px;
+  margin-left: 10%;
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid $white-smoke-2;
+  right: 10%;
+  height: 30%;
+}
+.coposant {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.flexWrapperO {
+  margin-bottom: 0px;
+  padding: 0 0 0 2px;
+  display: flex;
+  align-items: row;
+  flex-direction: row;
+}
+.texttitle {
+  color: $midnight-blue;
+  margin-top: 2px;
+  margin-right: 67px;
+  padding: 3%;
+  
+
+}
+.flexWrapperTwo {
+  display: flex;
+  align-items: flex-start;
+}
+.timeqagenda {
+  margin-right: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 50%;
+}
+.num9am {
+  height: 12px;
+  width: 20px;
+  color: $black;
+  display: flex;
+  margin-bottom: 31px;
+
+}
+.num10am {
+  height: 12px;
+  width: 26px;
+  color: $black;
+  display: flex;
+
+  &:not(:last-of-type) {
+    margin-bottom: 31px;
+  }
+}
+.num11am {
+  height: 12px;
+  width: 29px;
+  color: $black;
+  display: flex;
+  margin-bottom: 32px;
+}
+.num12am {
+  height: 12px;
+  width: 26px;
+  color: $black;
+  display: flex;
+  margin-bottom: 32px;
+ 
+}
+.flexWrapperThree {
+  padding: 1px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.caseup {
+  background-color: $transparent-midnight-blue;
+  margin-bottom: 4px;
+  border-radius: 1px;
+  padding: 3%;
+  display: flex;
+  align-items: flex-start;
+}
+.rdv1 {
+  color: $black;
+  margin-bottom: 3px;
+  font-size: 100%;
+
+}
+.sallea {
+  color: $black;
+  font-size: 80%;
+
+}
+.casedown {
+  background-color: $transparent-midnight-blue;
+  border-radius: 1px;
+  padding: 3%;
+  display: flex;
+  align-items: flex-start;
+}
+.rdv2 {
+  color: $black;
+  margin-bottom: 2px;
+  font-size: 100%;
+}

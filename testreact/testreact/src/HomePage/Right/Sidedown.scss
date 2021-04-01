@@ -1,0 +1,281 @@
+// This is the project stylesheet
+
+// Colors
+$black: rgba(0, 0, 0, 1);
+$brown: rgba(148, 32, 60, 1);
+$midnight-blue: rgba(3, 62, 100, 1);
+$transparent-white: rgba(255, 255, 255, 0);
+$white: rgba(255, 255, 255, 1);
+
+// Typographies
+@mixin open-sans-10-regular {
+  font-family: "Open Sans";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin open-sans-11-regular {
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin open-sans-12-bold {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin open-sans-12-regular {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin open-sans-13-bold {
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin open-sans-13-regular {
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin open-sans-13-semi-bold {
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: normal;
+}
+@mixin open-sans-14-bold {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin open-sans-14-regular {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin open-sans-15-bold {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin open-sans-15-regular {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin open-sans-16-bold {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin open-sans-16-extra-bold {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 800;
+  line-height: normal;
+}
+@mixin open-sans-16-regular {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin open-sans-16-semi-bold {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sidedown {
+    background-color: $midnight-blue;
+    border-radius: 12px;
+    padding: 11px 1px 1px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 70%;
+    width: 100%;
+  }
+  
+  .topi {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .sidebartop {
+    width: 3px;
+    height: 252px;
+    background-color: $white;
+    margin-top: 2px;
+    margin-right: 9px;
+  }
+  .flexWrapperSeven {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact {
+    color: $white;
+    margin-bottom: 12px;
+
+  }
+  .group6 {
+    margin-left: 19px;
+    padding: 0 1px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .flexWrapperEight {
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
+  }
+  .img1 {
+    margin-right: 14px;
+    border-radius: 135px;
+  }
+  .t1 {
+    color: $white;
+    margin: none;
+  
+  }
+  .flexWrapperNine {
+    margin-bottom: 21px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .shoppingMenThinkstock {
+    margin-right: 15px;
+    border-radius: 132px;
+  }
+ 
+  .flexWrapperTen {
+    padding: 0 0 0 1px;
+    display: flex;
+    align-items: center;
+    &:not(:last-of-type) {
+      margin-bottom: 21px;
+    }
+  }
+  .img3 {
+    margin-right: 16px;
+    border-radius: 97px;
+  }
+  .img4 {
+    margin-right: 16px;
+    border-radius: 54px;
+  }
+  .botti {
+    display: flex;
+    align-items: center;
+  }
+  .sidebardown {
+    width: 3px;
+    height: 184px;
+    background-color: $white;
+    margin-right: 9px;
+  }
+  .invitation {
+    color: $white;
+    margin-bottom: 19px;
+
+  }
+  .invit1 {
+    margin-bottom: 18px;
+    margin-left: 21px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .img5 {
+    margin-top: 3px;
+    margin-right: 16px;
+    border-radius: 54px;
+  }
+  .flexWrapperThirteen {
+    padding: 0 1px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .julieDesso {
+    color: $white;
+    margin-bottom: 2px;
+    margin: none;
+
+  }
+  .flexWrapperFourteen {
+    padding: 0 0 0 1px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .flexWrapperAne {
+    background-color: $white;
+    margin-right: 4px;
+    border-radius: 1px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+  }
+  .accepter {
+    color: $midnight-blue;
+    text-align: center;
+    margin: none;
+    font-size: 50%;
+  }
+
+  .flexWrapperTwa {
+    background-color: $brown;
+    border-radius: 1px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    align-items: center;
+  }
+  .supprimer {
+    color: $white;
+    text-align: center;
+
+    font-size: 50%;
+  }
+  .invit2 {
+    margin-bottom: 16px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .guillaumeRedo {
+    height: 22px;
+    width: 122px;
+    color: $white;
+    display: flex;
+
+
+
+  }
+  .flexWrapperSixteen {
+    display: flex;
+    align-items: flex-start;
+  }
+  .invit3 {
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .img7 {
+    margin-top: 2px;
+    margin-right: 15px;
+    border-radius: 132px;
+  }
